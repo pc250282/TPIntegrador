@@ -8,4 +8,8 @@ class Direccion {
 
     constructor()
 
+    override fun toString(): String {
+        return "Direccion(calle='$calle', altura='$altura', partido='$partido')"
+    }
+
 }

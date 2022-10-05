@@ -13,12 +13,14 @@ class Socio:Persona() {
         println("El socio se anoto en una actividad fisica")
     }
 
-    fun estadoSocio(){
+    fun estadoSocio():String{
+        var transformacionEstado=""
         if(activo){
-            println("El socio esta activo")}
+            transformacionEstado="Activo"}
         else{
-            println("El socio esta inactivo")
+            transformacionEstado="Inactivo"
         }
+        return transformacionEstado
     }
 
     override fun toString(): String {

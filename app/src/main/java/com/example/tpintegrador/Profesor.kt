@@ -26,11 +26,13 @@ class Profesor:Persona() {
         println("El profesor fue asignado a una actividad fisica")
     }
 
-    fun estadoProfesor(){
+    fun estadoProfesor():String{
+        var transformacionEstado=""
         if(estado){
-            println("El profesor esta activo")}
+            transformacionEstado="Activo"}
         else{
-            println("El profesor esta inactivo")
+            transformacionEstado="Inactivo"
         }
+        return transformacionEstado
     }
 }

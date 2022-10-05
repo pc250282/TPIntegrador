@@ -49,6 +49,7 @@ class Gimnasio {
             println("N° ${socio.numSocio}")
             println("Nombre: ${socio.nombre}")
             println("Apellido: ${socio.apellido}")
+            println("Estado: ${socio.estadoSocio()}")
             println("------------------------------------")
         }
     }
@@ -60,6 +61,7 @@ class Gimnasio {
             println("Nombre: ${profe.nombre}")
             println("Apellido: ${profe.apellido}")
             println("Actividad: ${profe.actividad}")
+            println("Estado: ${profe.estadoProfesor()}")
             println("------------------------------------")
         }
     }
